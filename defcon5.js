@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <hr>
+    <img src="/image/Flag_Map_of_the_United_States(subdivisions).png" alt="USA_Flag_Map" style="width:1000px;height:500px;">
+    <hr>
+    <h1>DEFCON Levels 5</h1>
+    <h2>Descrption:</h2>
+    <p>The lowest level of DEFCON is DEFCON 5. It means that everything is normal, no threats of importance. The military is at their peacetime level. No extra security or emergency actions are needed. This level is the safest and most stable.</p>
+     
+     <h3>DEFCON Order list: </h3>
+     <ul>
+        <li><input type="button" onclick=href="defcon5.js" value="DEFCON #5"></lili>
+        <li><input type="button" onclick="alert('Hello World!')" value="DEFCON #4"></lili>
+        <li><input type="button" onclick="alert('Hello World!')" value="DEFCON #3"></lili>
+        <li><input type="button" onclick="alert('Hello World!')" value="DEFCON #2"></lili>
+        <li><input type="button" onclick="alert('Hello World!')" value="DEFCON #1"></lili>
+        
+
+</body>
+</html>
