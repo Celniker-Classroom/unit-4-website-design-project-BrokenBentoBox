@@ -24,3 +24,15 @@ h4{
 .navbar li{
     float: left;
 }
+
+
+#book{
+    float: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman", Times, serif;
+}
+p1, p2, p3, p4, p5, p6 {
+  font-family: "Times New Roman", Times, serif;
+}
