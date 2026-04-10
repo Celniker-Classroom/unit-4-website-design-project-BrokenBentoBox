@@ -4,22 +4,22 @@ h4{
 }
 .navbar ul{
     list-style-type: none;
-    background-color: gray;
+    background-color: rgba(1, 159, 25, 0.74);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    color: white;
+    color: black;
     text-align: center;
 }
 .navbar a{
-    color: white;
+    color: black;
     text-decoration: none;
-    padding: 15px;
+    padding: 13px;
     display: block;
     text-align: center;
 }
 .navbar a:hover{
-    background-color: darkgray;
+    background-color: rgba(0, 124, 19, 0.74);
 }
 .navbar li{
     float: left;
@@ -35,4 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 p1, p2, p3, p4, p5, p6 {
   font-family: "Times New Roman", Times, serif;
+}
+p1{
+    font: 20px "Times New Roman", Times, serif;
 }
