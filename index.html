@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Harry Potter - Unoffical Guide</title>
-  <script src="script.js" defer></script>
-  <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <style>
 
@@ -27,9 +27,20 @@
         <li><a href="defcon9.html">Fantastic Beasts</a></li>
       </ul>
     </nav>
-
   <h1>Harry Potter Universe: The Ultimate Unoffical Guide</h1>
-  <img src="/image/allc.png" alt="Main Harry Potter Characters" style="width: 25%;height:300px;">
+
+
+  <div class="img-magnifier-container">
+  <img id="myimage" src="/image/allCART.png" width=50% height=50% alt="Harry Potter find the person">
+</div>    
+<script>
+/* Initiate Magnify Function
+with the id of the image, and the strength of the magnifier glass:*/
+magnify("myimage", 3);
+</script>
+
+
+  <p>Artwork for Warner Bros Games  by Gus Morais</p>
   <h2>Description:</h2>
     <p>This website was made to help people know what happens in each of the books. 
     <br>
@@ -116,6 +127,61 @@
       <td>Fantastic Beasts</td>
       <td>2001</td>
 </table>
+<br>
+<h3>Lego Hogwarts Custom (work in process)</h3>
+<p>
+  The following is a custom Lego Hogwarts Castle that I am building. It is not an official
+  <br>
+  Lego set. But the castle does include set 75969 LEGO "Harry Potter Hogwarts Astronomy 
+  <br>
+  Tower, since it was my one of my first Lego sets. The castle includes many main features 
+  <br>
+  such as the Great Hall, the Astronomy Tower, a mini Chamber of Secrets and the Quidditch 
+  <br>
+  Pitch. The image below shows what part of the castle I have built so far.
+</p>
+ <img src="image/castlepart.png" style="width:25%; height: 25%;"> 
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="/image/frontcastle.png" style="width:100%">
+    <div class="text">Castle Front View</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="/image/backcastle.png" style="width:100%">
+    <div class="text">Castle Back View</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="/image/QMatch.png" style="width:100%">
+    <div class="text">Quidditch Pitch</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="/image/FullHouse.png" style="width:100%">
+    <div class="text">All in one</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
     <br>
     <h3>Harry Potter Official Website</h3>
     <a href="https://www.harrypotter.com/"><img src="/image/Hogwarts.png" alt="Hogwarts Crest" style="width:180px;height:180px;"></a>
