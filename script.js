@@ -101,7 +101,7 @@ function magnify(imgID, zoom) {
 
 
 
-function myFunction() {
+function myFunctiondark() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
