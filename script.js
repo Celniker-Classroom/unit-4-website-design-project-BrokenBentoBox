@@ -1,17 +1,14 @@
 // add javascript here
 let slideIndex = 1;
 showSlides(slideIndex);
-
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -27,17 +24,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-
-
-
-
-
-
-
-
-
-
-
 function magnify(imgID, zoom) {
   var img, glass, w, h, bw;
   img = document.getElementById(imgID);
@@ -83,7 +69,6 @@ function magnify(imgID, zoom) {
     /* Display what the magnifier glass "sees": */
     glass.style.backgroundPosition = "-" + ((x * zoom) - w + bw) + "px -" + ((y * zoom) - h + bw) + "px";
   }
-
   function getCursorPos(e) {
     var a, x = 0, y = 0;
     e = e || window.event;
@@ -98,14 +83,10 @@ function magnify(imgID, zoom) {
     return {x : x, y : y};
   }
 }
-
-
-
 function myFunctiondark() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
-
 function myFunction(x) {
   x.classList.toggle("fa-thumbs-down");
 }

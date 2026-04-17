@@ -24,60 +24,27 @@ h4{
 .navbar li{
     float: left;
 }
-
-
 #book{
     float: left;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Times New Roman", Times, serif;
 }
-
 body {
     background-color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
 .fa {
   font-size: 50px;
   cursor: pointer;
   user-select: none;
 }
-
 .fa:hover {
   color: rgb(0, 184, 0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * {box-sizing: border-box;}
-
 .img-magnifier-container {
   position: relative;
 }
-
 .img-magnifier-glass {
   position: absolute;
   border: 3px solid #000;
@@ -87,10 +54,6 @@ body {
   width: 100px;
   height: 100px;
 }
-
-
-
-
 .imghover1 img:hover {
   animation: shake 3s;
   animation-iteration-count: infinite;
@@ -108,38 +71,18 @@ body {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * {box-sizing:border-box}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
-
 /* Hide the images by default */
 .mySlides {
   display: none;
   
 }
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -155,18 +98,15 @@ body {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
 /* Caption text */
 .text {
   color: black;
@@ -177,7 +117,6 @@ body {
   width: 100%;
   text-align: center;
 }
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: black;
@@ -186,7 +125,6 @@ body {
   position: absolute;
   top: 0;
 }
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -198,25 +136,18 @@ body {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active, .dot:hover {
   background-color: #717171;
 }
-
 /* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
-
-
 .dark-mode {
   background-color: black;
   color: white;
