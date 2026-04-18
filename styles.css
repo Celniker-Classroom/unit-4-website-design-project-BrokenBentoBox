@@ -26,6 +26,16 @@ h4{
 }
 #book{
     float: left;
+  border-color: rgba(0, 93, 14, 0.74);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+}
+.imgborder {
+  border-color: rgba(0, 124, 19, 0.74);
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 30px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Times New Roman", Times, serif;
