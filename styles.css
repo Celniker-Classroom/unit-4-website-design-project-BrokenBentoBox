@@ -65,7 +65,7 @@ body {
   height: 100px;
 }
 .imghover1 img:hover {
-  animation: shake 3s;
+  animation: shake 2s;
   animation-iteration-count: infinite;
 }
 @keyframes shake {
@@ -162,3 +162,4 @@ body {
   background-color: black;
   color: white;
 }
+
